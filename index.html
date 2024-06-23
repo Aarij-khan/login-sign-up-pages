@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkOne()">
+    
+    <div class="main">
+        <div class="container">
+            <div class="div">
+                <img src="./assets/Animated.gif" alt="" id="img1">
+                
+            </div>
+            <input id="email1" type="email" placeholder=" *Email" required>
+            <input id="email2" type="text" placeholder=" *Username">
+            <div class="twoThing">
+                <input id="pswd1" type="password" placeholder=" *Password" required>
+                <i onclick="ChangeIcon(this)" class="fa-regular fa-eye" id="chSet1"></i>
+            </div>
+            <br>
+            <p id="paragraph">Forget Password?</p>
+            <button class="clay-btn" id="button1" onclick="SignUp()">Sign Up</button>
+            <h4 id="heading4">Already have an account? <span onclick="Login()" id="one">Log in</span></h4>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/36a9224b58.js" crossorigin="anonymous"></script>
+</body>
+</html>
